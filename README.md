@@ -1,9 +1,57 @@
-# FEAR3-DespairEngineLuaAPI
-I managed to extract and decompile luasense.lua, which turns out to be the complete Lua 5.1 API skeleton and documentation for Day 1 Studios' Despair Engine.
-Even though the function bodies are empty stubs (since the actual C++ runtime executes them), the bytecode still contains all the original developer comments, parameter names, and internal tool names.
-Here are some of the coolest things inside:
-• Internal Dev Tool Names: The bytecode reveals the names of the proprietary editors used to build the game, including Forge (the main object/template editor), Bling (particle/VFX editor), Burmester (curve editor), ChopShop (cutscene/audio/subtitle tool), Facade (material/flow editor), and FontMaker.
-• Cut/Unused Mechanics & Systems: There are full API namespaces for Possession (timers, delays, vision modes), Tethering (co-op leash mechanics, breadcrumbs, safe radius overrides), Generative Scares (an ambient tension system that tracks player stress and even has a probability slider for "fake" scares), and Contractions (the game mode's dynamic fog and wave settings).
-• Debug & Telemetry: It includes hooks for an internal DataMiner telemetry system, Perforce source control integration directly inside the editors, and debug commands like GameDebugDump.
-• Fun Dev Notes: Some of the original developer comments are still intact, like a note on SetCrouch saying "Unused. Somebody please delete me." or SaveAs noting "yes this is exactly the same as SaveAs... (but shouldn't be)".
-If anyone is into reverse-engineering, modding, or just preserving game dev history from the 360/PS3 era, this is a goldmine of how the Despair Engine was structured under the hood.
+# Despair Engine Lua API — F.E.A.R. 3
+
+Неофициальный справочник Lua API Despair Engine (Day 1 Studios), построенный по сохранённым результатам реконструкции `luasense.lua` из F.E.A.R. 3. Охватывает игровые функции и интерфейсы внутренних редакторов, встречающиеся в этих артефактах.
+
+**Это документация, а не исходный код движка, SDK или работающий Lua-модуль.** Реальные реализации функций в этом репозитории отсутствуют. Полнота API и работоспособность в конкретной версии игры не подтверждены.
+
+## Навигация
+
+- **[Справочник API по пространствам имён](docs/API.md)** — 330 пространств, описания и параметры из call-tip, доступные сигнатуры.
+- **[Машиночитаемый каталог](api/despair-api.json)** — 3 879 путей, включая алиасы; это не число уникальных реализаций.
+- [Анализ всех исходных файлов и ограничения](docs/ANALYSIS.md).
+- [Правила обновления](CONTRIBUTING.md).
+- **[Восстановленные скрипты boot.dspack](recovered/boot/README.md)** — 43 файла из пользовательского архива; у всех после компиляции точно совпало исполняемое дерево Lua 5.1. Получены unluac и проверены отдельно от справочника API.
+- **[Восстановленные скрипты resources.dspack](recovered/resources/README.md)** — ещё 228 файлов, проверенных cLuaDecompiler, LuaDec и unluac. У всех выбранных исходников точно совпало исполняемое дерево после компиляции; полный отчёт сравнивает результаты инструментов.
+
+Примеры разделов: [GameScript.Game.Player](docs/reference/GameScript.Game.Player.md), [GameScript.Callbacks](docs/reference/GameScript.Callbacks.md), [Despair.Forge.File](docs/reference/Despair.Forge.File.md), [глобальные функции](docs/reference/_global.md).
+
+## Что удалось извлечь
+
+| Данные | Количество |
+| --- | ---: |
+| Инструкции корневого прототипа | 52 603 |
+| Дочерние прототипы | 3 025 |
+| Функции в Lua-реконструкции | 1 503 |
+| Записи справочных подсказок (call-tip) | 3 002 |
+| Пути в объединённом каталоге | 3 879 |
+| Неизвестные имена констант, используемых через `K[n]` | 242 |
+
+Справочные строки описывают, в частности, Forge, Bling, Burmester, ChopShop, Facade и FontMaker. Наличие API не доказывает наличие вырезанной механики, доступность редактора или способ разблокировки функции.
+
+## Использование
+
+Документация читается прямо на GitHub, без установки зависимостей. Для поиска скачайте JSON либо используйте поиск по файлам справочника.
+
+Генерация и проверка требуют **Python 3.10+**, только стандартную библиотеку:
+
+```sh
+python tools/build_api.py
+python tools/build_api.py --check
+python -m unittest discover -s tests -v
+```
+
+Генератор не исполняет Lua и не требует игры. `--check` завершается с ненулевым кодом, если результаты устарели. Исходные четыре файла сохранены на прежних путях, кроме обновлённого README.
+
+## Как читать данные
+
+- `arg1`, `arg2`, … — условные имена из реконструкции, а не оригинальные имена параметров.
+- Если сигнатуры нет в Lua-файле, число аргументов не угадывается по тексту подсказки.
+- `@K[n]` обозначает константу, чьё значение отсутствует в текстовом дизассемблировании. Оригинальные имена этих полей не восстановлены.
+- Описания разработчиков оставлены на английском, без изменения смысла. Пустая подсказка не означает, что функция ничего не делает.
+- Lua-заглушки **не следует загружать в игру**: они могут перезаписать настоящие функции пустыми телами. `GetCallTipInfo` тоже представлен пустой заглушкой, хотя дамп отмечает нетривиальный helper.
+
+## Происхождение и права
+
+В репозитории сохранены реконструированные материалы, не оригинальный исходный код. Исходный бинарный `luasense.lua`, версия декомпилятора и точная сборка игры не предоставлены; повторить извлечение из игры только по этим файлам нельзя. Хеши имеющихся артефактов включены в JSON-каталог.
+
+Проект не связан с правообладателями F.E.A.R. 3. Лицензия исходных материалов в первоначальном репозитории не указана; этот справочник не предоставляет прав на код или ресурсы игры.

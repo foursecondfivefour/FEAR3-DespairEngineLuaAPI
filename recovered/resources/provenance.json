@@ -1,0 +1,48 @@
+{
+  "input_note": "EXTRACTresources.txt and EXTRACTresources-2.txt contain identical script bytes; second archive adds cLuaDecompiler.",
+  "archives": {
+    "EXTRACTresources.txt": "486ce156525cd4ab26d54a78070ffd3a8600773101de8da304fadac643bc5f60",
+    "EXTRACTresources-2.txt": "19e1e764d988907ccfeb0c536ebbc94a75bf5adb7e896db134782278a4751e56"
+  },
+  "clua": {
+    "source": "User attachment EXTRACTresources-2.txt: EXTRACTresources/cLuaDecompiler",
+    "sha256": "e01ea4ede61f593dc954b2f244085ef6cae8e9b07f40decee8940331b63727cd",
+    "executed": true,
+    "modes": [
+      [
+        "--dec"
+      ],
+      [
+        "--dec",
+        "--annotate",
+        "--debug"
+      ],
+      [
+        "--dis"
+      ],
+      [
+        "--ssa-dump"
+      ]
+    ],
+    "note": "Version/tag of uploaded ELF has not been independently authenticated; CLI help captured in archive."
+  },
+  "other_tools": {
+    "luadec": {
+      "repository": "https://github.com/viruscamp/luadec",
+      "commit": "895d92313fabaee260121c758c8320d1b21dd741"
+    },
+    "lua51": {
+      "repository": "https://github.com/viruscamp/lua5",
+      "commit": "cdcfa70f2f731409046374e797a62314b4924b77"
+    },
+    "unluac": {
+      "download": "https://api.github.com/repos/zlperysian/Unluac/contents/unluac.jar",
+      "version": "1.2.3.530",
+      "sha256": "65fcab564745fd5155bae01cad03756efee14e4c60c35edcd277b07ce0d9b1e2"
+    },
+    "java": {
+      "package": "jdk4py==21.0.8.2",
+      "source": "PyPI"
+    }
+  }
+}
