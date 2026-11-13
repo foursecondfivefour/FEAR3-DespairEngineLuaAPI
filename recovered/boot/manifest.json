@@ -1,0 +1,2636 @@
+{
+  "archive_sha256": "1cb5b2112a25113c5182adb412a090dd76ec09a020211f16b400de69dcf0f043",
+  "requested_tool_executed": false,
+  "warning": "Recovered source is not original source. Syntax checks do not prove semantic equivalence.",
+  "files": [
+    {
+      "path": "script/game/Animation/SetAnimationVariable.lua",
+      "sha256": "7c3d42ef6c126bf7f90c99f425e72bf004649c0efd082bc910d71206a4b1fd29",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 74,
+      "locals": 14,
+      "upvalue_names": 5,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "2078df377d8f256580dcab1e9faf9616103af9bea984f2840506643679093a52"
+    },
+    {
+      "path": "script/game/Audio/LowHP.lua",
+      "sha256": "d1fee557c2f458f51185e90b8d5d56739f68de4d11cbc7a384b9395bbd64cbb3",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 4,
+      "instructions": 87,
+      "locals": 10,
+      "upvalue_names": 10,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 4,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "de40d0376baf5b33d279ec9928120d3a1541c00eebf95b0a87a7998ca1aa7e36"
+    },
+    {
+      "path": "script/game/Audio/Tinnitus.lua",
+      "sha256": "ef3ce92907dace69c7eab93eddca2dc4d247a90260b6ce1bca8921710e8701db",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 49,
+      "locals": 11,
+      "upvalue_names": 3,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "ea0d0444be879f930c838186e0b6abf3eeb6412dc82de63de8ce091d2cb6e7d6"
+    },
+    {
+      "path": "script/game/Camera/AdjustFOV.lua",
+      "sha256": "eb3b1153978d5b029fb40f21cdb583182491c127da841566e0e04a0d788acd59",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 7,
+      "instructions": 214,
+      "locals": 30,
+      "upvalue_names": 18,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 2,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 7,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "748306a5e4accdfc89018c56eefe3dd1b734e0c65b7c50f20d37b2c965d179ca"
+    },
+    {
+      "path": "script/game/Camera/FettelTetherParameters.lua",
+      "sha256": "78d3f557d3fb88c9bfc5c52211af400f1a06b4b77183fc47cd6464d34369dd6b",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 8,
+      "instructions": 277,
+      "locals": 36,
+      "upvalue_names": 25,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../final/diagnostics/script/game/Camera/FettelTetherParameters/default.lua:68: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...final/diagnostics/script/game/Camera/FettelTetherParameters/no-guess.lua:68: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...diagnostics/script/game/Camera/FettelTetherParameters/unluac-nodebug.lua:86: '=' expected near 'lbl_31'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 7,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "ff749522ee37328d2b54c8ea6039aa558a32ab52ce37217aa1db1569a18c6a75"
+    },
+    {
+      "path": "script/game/Camera/combineradialblurslowmo.lua",
+      "sha256": "563f3d4b2af82d5e998d71ee0f2389ef32778e7e991022b6dee0bfa70e4a147b",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 7,
+      "instructions": 105,
+      "locals": 11,
+      "upvalue_names": 11,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 3,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 2,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...inal/diagnostics/script/game/Camera/combineradialblurslowmo/no-guess.lua:33: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 6,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "0498f6e4ae97a3d70ffc46182f2bed86ed700c0702016f38d88e02f39e13c44f"
+    },
+    {
+      "path": "script/game/Common/StreamWorlds.lua",
+      "sha256": "1a9596d9a8ce6e79a666ac0068d309f8d7261d190a64fad6d0540b89673a33a0",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 60,
+      "locals": 4,
+      "upvalue_names": 1,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "04e1f1888e01639248e2e6810e3e0a347bc0cf27cc69e10329b37a741d95cace"
+    },
+    {
+      "path": "script/game/Death/player_selectdeathsequence.lua",
+      "sha256": "7ff6d3d6dfa22bfe8f3f57d4128b77b76595c438e8e40409c15fe4df2264a3fb",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 3,
+      "instructions": 46,
+      "locals": 5,
+      "upvalue_names": 3,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 3,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "319a78f192b617c94a29f442d7b0e57425b9f3fa24e559b8669e5ac472360c96"
+    },
+    {
+      "path": "script/game/Effects/CreepVariableMapping.lua",
+      "sha256": "04725238eb8275b7196d5ba3b7d7737405ebc6b6c7fa454efb90b5db9c52d22d",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 5,
+      "instructions": 99,
+      "locals": 7,
+      "upvalue_names": 4,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 2,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 1,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../final/diagnostics/script/game/Effects/CreepVariableMapping/no-guess.lua:35: unexpected symbol near 'char(17)'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 5,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "cf39c13862a61f6ba7c63431e6f76d74c6f3fb7ce5a96e68b2762043b97d7592"
+    },
+    {
+      "path": "script/game/GlobalObject/Achievements/KillBasedAchievements.lua",
+      "sha256": "b8f2b550bb516f3e3dd1a4265769bbe564935c9869b8255cf9d20aec5580f2ac",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 6,
+      "instructions": 413,
+      "locals": 58,
+      "upvalue_names": 26,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 4,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 2,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...script/game/GlobalObject/Achievements/KillBasedAchievements/no-guess.lua:88: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../game/GlobalObject/Achievements/KillBasedAchievements/unluac-nodebug.lua:79: '=' expected near 'lbl_21'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 5,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "4772ce766df2cd532e822dfce3a28071dff1444ce958b92e2bb69a7a85171f27"
+    },
+    {
+      "path": "script/game/GlobalObject/Achievements/ReviveAchievement.lua",
+      "sha256": "0df253609af233af0d5b6a3fc4b3a262b0f2c39859ef62c925db1be2a226d135",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 10,
+      "instructions": 492,
+      "locals": 51,
+      "upvalue_names": 38,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 11,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...tics/script/game/GlobalObject/Achievements/ReviveAchievement/default.lua:64: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 5,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...ics/script/game/GlobalObject/Achievements/ReviveAchievement/no-guess.lua:48: unexpected symbol near ')'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...ript/game/GlobalObject/Achievements/ReviveAchievement/unluac-nodebug.lua:76: '=' expected near 'lbl_38'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 7,
+      "default_comparison_failures": 3,
+      "recovered_sha256": "713af006c643938e2dec823b80423ab0052b4f6304aa1bc0f5fb21d83c76a295"
+    },
+    {
+      "path": "script/game/GlobalObject/Performance/PerformanceAdjust.lua",
+      "sha256": "84ae79fe6c9b7c462d2d93a9a5d027538aad1b46610a789800e1e13937058bf9",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 4,
+      "instructions": 143,
+      "locals": 17,
+      "upvalue_names": 5,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...stics/script/game/GlobalObject/Performance/PerformanceAdjust/default.lua:31: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...tics/script/game/GlobalObject/Performance/PerformanceAdjust/no-guess.lua:31: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 3,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "a81ff9c380163d65842c0915859fc930ea1b173dc229f224282f55e400228695"
+    },
+    {
+      "path": "script/game/GlobalObject/Score/AwardBoosts.lua",
+      "sha256": "a96b8b524abfa87e14270ab0ff1ceb521fe16847038d8bc0de757220af90e943",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 10,
+      "instructions": 1104,
+      "locals": 100,
+      "upvalue_names": 69,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 4,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 3,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...inal/diagnostics/script/game/GlobalObject/Score/AwardBoosts/no-guess.lua:181: unexpected symbol near '.'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 153,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...iagnostics/script/game/GlobalObject/Score/AwardBoosts/unluac-nodebug.lua:97: '=' expected near 'lbl_21'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 9,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "854aeea8933657304ec4d9256bd0992d6c36e5339df692db71dd0df98c6a5b97"
+    },
+    {
+      "path": "script/game/GlobalObject/Score/DownedRevivedScoring.lua",
+      "sha256": "4eaf9ce09401cdc6ba0a40e9c43e56c34748bec73645e15c18de4c7ba8ecabad",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 25,
+      "instructions": 1914,
+      "locals": 134,
+      "upvalue_names": 158,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 36,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...gnostics/script/game/GlobalObject/Score/DownedRevivedScoring/default.lua:115: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 42,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...nostics/script/game/GlobalObject/Score/DownedRevivedScoring/no-guess.lua:93: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 7,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...s/script/game/GlobalObject/Score/DownedRevivedScoring/unluac-nodebug.lua:204: '=' expected near 'lbl_142'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 22,
+      "default_comparison_failures": 3,
+      "recovered_sha256": "442c5a79aaa73edc008d57a57abd9c824d5966daeb6c00083224f01d028a169d"
+    },
+    {
+      "path": "script/game/GlobalObject/Score/PsychicLinkScoring.lua",
+      "sha256": "50a1ea17195802a32bbeeb0f52ea87af1b135b627aa8f1abf5be9f27a7898c99",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 105,
+      "locals": 10,
+      "upvalue_names": 5,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...nostics/script/game/GlobalObject/Score/PsychicLinkScoring/all-locals.lua:66: unexpected symbol near '='\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "75ec2185410f95c288344c5a2d9b0efef6de0c773cb14150203cfc6dfdf9caf8"
+    },
+    {
+      "path": "script/game/GlobalObject/Score/ScoreDeath.lua",
+      "sha256": "8f93490a7bdff037bc720705869e70278ee5c13e6f924452de2859cbff6f4a13",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 3,
+      "instructions": 116,
+      "locals": 24,
+      "upvalue_names": 9,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 3,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "d64185d1f0cfa1fa74904fe79483ff5472cb53af3f57afe937aad774b4dda81c"
+    },
+    {
+      "path": "script/game/Libraries/AIDirectorBase.lua",
+      "sha256": "15abcda89a3afa174be4a3127add740f48192438f593846fc2a0186e026accb3",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 104,
+      "instructions": 4052,
+      "locals": 469,
+      "upvalue_names": 254,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 53,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...overy/final/diagnostics/script/game/Libraries/AIDirectorBase/default.lua:439: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 19,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...very/final/diagnostics/script/game/Libraries/AIDirectorBase/no-guess.lua:113: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 106,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...inal/diagnostics/script/game/Libraries/AIDirectorBase/unluac-nodebug.lua:269: '=' expected near 'lbl_34'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 90,
+      "default_comparison_failures": 14,
+      "recovered_sha256": "3ef3915dd8b5e560a9d5646515df19eb1877e288d4194469df559376774578c5"
+    },
+    {
+      "path": "script/game/Libraries/GameCamera.lua",
+      "sha256": "8fc5ac3b7b57cd69a2c04b27e38bba3147ce2c5681bed5935f9bb07345fef185",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 1,
+      "instructions": 21,
+      "locals": 15,
+      "upvalue_names": 0,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 1,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "5e96f41f00bd9e15c82f0e2cb0c50181d28307d24592aa8234c1e6c4da2ea535"
+    },
+    {
+      "path": "script/game/Libraries/GameCinema.lua",
+      "sha256": "890cc169ae53d9c98e191f88508c87dc4e4a4617d9fa177579eb5e2266c7e36f",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 11,
+      "instructions": 351,
+      "locals": 71,
+      "upvalue_names": 22,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 9,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 11,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "11bc7f230284c1a893bbb452fbecdd7741db2a332bf71161097adc6382155449"
+    },
+    {
+      "path": "script/game/Libraries/GameDebug.lua",
+      "sha256": "0487070b858884b2c3022f9a34b163d94def28a78237628056344dd5193c251c",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 9,
+      "instructions": 195,
+      "locals": 45,
+      "upvalue_names": 9,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 9,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "749671d5bceeb2661bbaf2ef5ae1bac73245847b6b4225cdc26985e02f96bb7a"
+    },
+    {
+      "path": "script/game/Libraries/GameMP.lua",
+      "sha256": "864cb42fdbc941f0bcc625b53e9006abab800c82eeacfbf2388edf61680b87b5",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 4,
+      "instructions": 150,
+      "locals": 36,
+      "upvalue_names": 8,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 2,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 2,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 11,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 2,
+      "recovered_sha256": "f0bd3a7ac367df43afc7308ade0969c6efb85f638e0bb4aae50933c05c16552c"
+    },
+    {
+      "path": "script/game/Libraries/GameRegions.lua",
+      "sha256": "82108e570be570f2c7e018ca7889ff2f99ee3432510ada5e74e2937dd09b6c9a",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 5,
+      "instructions": 119,
+      "locals": 35,
+      "upvalue_names": 5,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 2,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 4,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "e677e0af676454cc93249fd85da846e7b3164ebc447d958ccd201c42ced0c6fd"
+    },
+    {
+      "path": "script/game/Libraries/GameSets.lua",
+      "sha256": "7fa50a9a4c074acfe1c18e36d960a0834af5135d400a80cae01e60ebf1624845",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 1,
+      "instructions": 18,
+      "locals": 12,
+      "upvalue_names": 0,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 1,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "6f0f5a3018ad0ffeb5116b6cccab565a8068d16fda9840410eb33f456419aaac"
+    },
+    {
+      "path": "script/game/Libraries/GameSupport.lua",
+      "sha256": "a787ef95e6e9d8f9262835ff28d73cefb3fca0932dc127b7cf5e2f86e59830db",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 4,
+      "instructions": 82,
+      "locals": 21,
+      "upvalue_names": 3,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 4,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "cfe1a6e5c11269b8d08417c6a8e190225dc1eae7aa816f5e4f5242c3ddccf774"
+    },
+    {
+      "path": "script/game/Libraries/GameUtilities.lua",
+      "sha256": "1f11d00aa3ad06c686f9ee361b3315db00999c43855b571b95929316727b8da9",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 35,
+      "instructions": 863,
+      "locals": 157,
+      "upvalue_names": 57,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 14,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 14,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 5,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...final/diagnostics/script/game/Libraries/GameUtilities/unluac-nodebug.lua:129: '=' expected near 'lbl_9'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 26,
+      "default_comparison_failures": 9,
+      "recovered_sha256": "6def21192e5b951963350be88c0a1582667970a258912ade2d41d98d63c9e279"
+    },
+    {
+      "path": "script/game/Libraries/LuaHelpers.lua",
+      "sha256": "440403f0c296984d6b5fc766963fb55d4c31a5a3f7e8cbfb1321dff3775176c1",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 9,
+      "instructions": 264,
+      "locals": 63,
+      "upvalue_names": 12,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...-recovery/final/diagnostics/script/game/Libraries/LuaHelpers/default.lua:123: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...recovery/final/diagnostics/script/game/Libraries/LuaHelpers/no-guess.lua:123: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 7,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...covery/final/diagnostics/script/game/Libraries/LuaHelpers/all-locals.lua:266: unexpected symbol near 'else'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 8,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "c105df1138ef4ceaf1e78df66bbda6ce35ae3d13ddabd4c6d8ac0321e480e552"
+    },
+    {
+      "path": "script/game/Libraries/LuaMath3d.lua",
+      "sha256": "75f87150647b182bc59a50f5b9cdfb8b8b942fd42a2517f83c331dac1aaf590c",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 20,
+      "instructions": 477,
+      "locals": 86,
+      "upvalue_names": 9,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 15,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 20,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "16fe7e63fb19686f180afe3d9930755dbda1e15c7ae65e40666fa6a8aaaca7ee"
+    },
+    {
+      "path": "script/game/MP/COOP/Ghost.lua",
+      "sha256": "57e02aaa03d5b2286a2dc051807c240e0b4b8d68d1ba872ef30c5dd076fab342",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 11,
+      "instructions": 341,
+      "locals": 39,
+      "upvalue_names": 38,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 11,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "69abf7dd90604b02531bdd2c0093ca9b56d2829f08185b411433eb14557a31a7"
+    },
+    {
+      "path": "script/game/MP/LastStand.lua",
+      "sha256": "bf8c4e9689e5878f67f771f6b9f40e1e907b87d84ea8bcb06f9feee5881b62f7",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 19,
+      "instructions": 1144,
+      "locals": 67,
+      "upvalue_names": 119,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 21,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 31,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...r/fear3-recovery/final/diagnostics/script/game/MP/LastStand/no-guess.lua:73: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 6,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...3-recovery/final/diagnostics/script/game/MP/LastStand/unluac-nodebug.lua:420: '=' expected near 'lbl_10'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 15,
+      "default_comparison_failures": 4,
+      "recovered_sha256": "70ff353e88c518bac855995673488cdfcd4cd2d04121f6732410201da8955eb7"
+    },
+    {
+      "path": "script/game/MP/LastStandManager.lua",
+      "sha256": "b705e453ce9a9fa3c72d42bcb92a14c7c56f32995847f3fbf1db1c5c47b6e66f",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 13,
+      "instructions": 837,
+      "locals": 45,
+      "upvalue_names": 41,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 22,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...3-recovery/final/diagnostics/script/game/MP/LastStandManager/default.lua:89: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 9,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...-recovery/final/diagnostics/script/game/MP/LastStandManager/no-guess.lua:33: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 11,
+      "default_comparison_failures": 2,
+      "recovered_sha256": "e7d6a634f78cb4c7d9879431a5c28370e71a111d183fd6b84c787234ee507d4a"
+    },
+    {
+      "path": "script/game/MP/Rifts/ContractionsScoring.lua",
+      "sha256": "a19728eeca0dfa4fdd59ff0efa45d4a0c8e35104e58c00cdc26bae91c3a3655b",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 13,
+      "instructions": 844,
+      "locals": 97,
+      "upvalue_names": 69,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 6,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 3,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../final/diagnostics/script/game/MP/Rifts/ContractionsScoring/no-guess.lua:98: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../diagnostics/script/game/MP/Rifts/ContractionsScoring/unluac-nodebug.lua:217: '=' expected near 'lbl_45'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 11,
+      "default_comparison_failures": 2,
+      "recovered_sha256": "78ddccfda795a723b872bd69f6f9db5b40ab647257cb49694a8976e3e2602a97"
+    },
+    {
+      "path": "script/game/Object/Kill/WaitXSecondsKillObjects.lua",
+      "sha256": "f5f7f4f4a372aa947a3803b5c51aa9194fc0d7f0066a03b7a5cdea0202aa6d68",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 52,
+      "locals": 12,
+      "upvalue_names": 3,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "1e71d0d856e86bc16747d47b8326b9617a5cd1b70e9423b3991f2ba24d8b39d6"
+    },
+    {
+      "path": "script/game/Object/sendtext/timersendtext.lua",
+      "sha256": "4cb4f5c0ce7dc4c2c3b341b1a1d351d56c4dea237f44337b26a5d339b2e037f9",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 64,
+      "locals": 11,
+      "upvalue_names": 3,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 1,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../final/diagnostics/script/game/Object/sendtext/timersendtext/default.lua:28: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 1,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...final/diagnostics/script/game/Object/sendtext/timersendtext/no-guess.lua:28: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 1,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 1,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "5fd410fdd08f5349c2dfdb2bc613a3cb9ad33af5e477249bf27e5b62fd1b4723"
+    },
+    {
+      "path": "script/game/Player/BlackOut.lua",
+      "sha256": "eea588417eeb6447bad9a4d7bfd2f6aa04053f3a5e8b8f66946069eafbc8cdf7",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 50,
+      "locals": 8,
+      "upvalue_names": 2,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 3,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 2,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...ear3-recovery/final/diagnostics/script/game/Player/BlackOut/no-guess.lua:19: unexpected symbol near 'char(6)'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "a6b8df5b4b7a9c3f61345011e61c88cee6ff1c56f2f3172d16edac97ce9266cc"
+    },
+    {
+      "path": "script/game/Player/FettelParticleDisable.lua",
+      "sha256": "dfa18a0dd09dddd6345e88a9a00943efc09de48b57677b2e3157ca80dc740c1d",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 5,
+      "instructions": 176,
+      "locals": 14,
+      "upvalue_names": 15,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 1,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...y/final/diagnostics/script/game/Player/FettelParticleDisable/default.lua:59: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 1,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: .../final/diagnostics/script/game/Player/FettelParticleDisable/no-guess.lua:59: unexpected symbol near ';'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 3,
+      "default_comparison_failures": 2,
+      "recovered_sha256": "f817da4ddd1e15a66046f01f8d0cbf2dea39e774dfdf42f8b5140f2d16f79b5e"
+    },
+    {
+      "path": "script/game/Player/GenericDisplayDamage.lua",
+      "sha256": "771845d4d60a7098b32ca6c8594d33154045f4616bf3454a37f53b2a58a6fdbf",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 14,
+      "instructions": 443,
+      "locals": 59,
+      "upvalue_names": 45,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 13,
+      "default_comparison_failures": 1,
+      "recovered_sha256": "0a770825c6cc2d880e2f6bdf04452355ab7ef15c4f6bde55cc6f25c146914c80"
+    },
+    {
+      "path": "script/game/Player/PlayerAvatarRespawnInitialization.lua",
+      "sha256": "c9e47711dc98f38d1b622e8f10721e247e49586da9432ed7d609c4e10c7497e4",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 39,
+      "locals": 12,
+      "upvalue_names": 0,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "3f565cd1a7f589809e34cb05718b48bedcb57c89e7caf23e7c6910a2d930f33c"
+    },
+    {
+      "path": "script/game/Player/PlayerVehicleFade.lua",
+      "sha256": "3b307b10877fe5332104e0408d5dab967e8737f1cf191d163f04c1a8d71a48d6",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 3,
+      "instructions": 47,
+      "locals": 7,
+      "upvalue_names": 3,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 2,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 2,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...very/final/diagnostics/script/game/Player/PlayerVehicleFade/no-guess.lua:18: unexpected symbol near '�'\n",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 3,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "8d80cb0b2c6a4d5174a643ded16d1f134f0f619be2daa5597b6e5f6586a8ac38"
+    },
+    {
+      "path": "script/game/Player/Rank.lua",
+      "sha256": "f782e7bff9b2c087583e269ebf4169d3c16eac9cfb1670357c8d66c03380a942",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 4,
+      "instructions": 250,
+      "locals": 23,
+      "upvalue_names": 29,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": false,
+          "diagnostic_markers": 0,
+          "syntax_error": "/home/user/fear3-recovery/tool/luadec/lua-5.1/src/luac: ...r3-recovery/final/diagnostics/script/game/Player/Rank/unluac-nodebug.lua:129: '=' expected near 'lbl_102'\n",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 4,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "5555a016dc3a8c4b35c373f09529f7bbd5080ca0f684e6dae4d79aaf88ad5fe8"
+    },
+    {
+      "path": "script/game/Player/RankTutorial.lua",
+      "sha256": "4d8eb66e61a48f9a32a50e249853af077ad5cbe0b8e2966d988fd729e1f3c900",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 4,
+      "instructions": 181,
+      "locals": 18,
+      "upvalue_names": 21,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 3,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 4,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "2ef66bf30424bb66397b21b5b3e4a7eb7f40315c2391ef6fc6600de50480331c"
+    },
+    {
+      "path": "script/game/Vehicles/SendMessageToPAInRange.lua",
+      "sha256": "7c627690b0d66d54567fd05f35855ad83693e918c9b94ec1ad3304be00609465",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 65,
+      "locals": 15,
+      "upvalue_names": 6,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "893485b86b0c27e41ed469a5d85fda3f1c4364318e069a7ded6781c6ac152ef0"
+    },
+    {
+      "path": "script/game/ambientevents/Common/FlickerFlashlight.lua",
+      "sha256": "448f720e9be3de09b98bef0d5f90b09168d4e5558b98c63f34b3782025d70af8",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 2,
+      "instructions": 90,
+      "locals": 12,
+      "upvalue_names": 5,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 2,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "510208dada07680a67e2d921747986e3944e0e2c833ab4c0ac6b7751ab6888eb"
+    },
+    {
+      "path": "script/game/ambientevents/Common/flickerflashlightObjectTagInRange.lua",
+      "sha256": "201ff8f2a823a5a0579392dcd02d54a2995004934358c39d03d174ea641f2672",
+      "header_hex": "1b4c75615100010404040800",
+      "prototypes": 3,
+      "instructions": 145,
+      "locals": 22,
+      "upvalue_names": 13,
+      "candidates": [
+        {
+          "mode": "default",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "no-guess",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "all-locals",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        },
+        {
+          "mode": "unluac",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": true
+        },
+        {
+          "mode": "unluac-nodebug",
+          "exit_code": 0,
+          "syntax_ok": true,
+          "diagnostic_markers": 0,
+          "syntax_error": "",
+          "executable_tree_exact": false
+        }
+      ],
+      "selected_mode": "unluac",
+      "syntax_ok": true,
+      "executable_tree_exact": true,
+      "diagnostic_markers": 0,
+      "disassembly_exit_code": 0,
+      "functions_exit_code": 0,
+      "comparison_exit_code": 0,
+      "default_comparison_passes": 3,
+      "default_comparison_failures": 0,
+      "recovered_sha256": "df1941ae0affef1c7508108b33ccba7bdcd04ab696a2c2f457b4cd1eddc78f20"
+    }
+  ],
+  "summary": {
+    "files": 43,
+    "syntax_ok": 43,
+    "executable_tree_exact": 43,
+    "with_diagnostic_markers": 0
+  }
+}

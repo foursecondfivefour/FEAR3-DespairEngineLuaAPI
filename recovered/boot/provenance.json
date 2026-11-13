@@ -1,0 +1,27 @@
+{
+  "requested_tool": {
+    "url": "https://github.com/Coldzer0/LuaDecompiler/releases/download/v1.0.0/cLuaDecompiler_linux_x86-64.zip",
+    "executed": false,
+    "reason": "Redirect to release-assets.githubusercontent.com blocked by sandbox network",
+    "source_commit": "e75c48a73008187e88cc5a50a2dd06b884247923"
+  },
+  "tools": {
+    "luadec": {
+      "repository": "https://github.com/viruscamp/luadec",
+      "commit": "895d92313fabaee260121c758c8320d1b21dd741"
+    },
+    "lua51": {
+      "repository": "https://github.com/viruscamp/lua5",
+      "commit": "cdcfa70f2f731409046374e797a62314b4924b77"
+    },
+    "unluac": {
+      "download": "https://api.github.com/repos/zlperysian/Unluac/contents/unluac.jar",
+      "version": "1.2.3.530",
+      "sha256": "65fcab564745fd5155bae01cad03756efee14e4c60c35edcd277b07ce0d9b1e2"
+    },
+    "java": {
+      "package": "jdk4py==21.0.8.2",
+      "source": "PyPI"
+    }
+  }
+}
